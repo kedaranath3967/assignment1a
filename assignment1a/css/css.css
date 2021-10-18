@@ -1,0 +1,66 @@
+h1{
+    color: rebeccapurple;
+    text-decoration-line: underline;
+}
+em{
+    color: cornflowerblue;
+}
+.azure{
+    background-color: azure;
+}
+.lightgoldenrodyellow{
+    background-color: lightgoldenrodyellow;
+}
+.red{
+    background-color: lightcoral;
+}
+
+th,td{
+    border: solid orange 2px;
+    padding: 0.4em
+
+}
+thead tr:first-of-type{
+    background-color: darkorange;
+    color: white;
+}
+table{
+    width: 60%;
+	margin: 5% auto;
+	border-collapse: collapse;
+
+}
+tr:nth-of-type(odd){
+    background-color: aquamarine;
+}
+tr:nth-of-type(even){
+    background-color: aqua;
+}
+#text{
+    text-align: center;
+    font-weight: bold;
+    color: deeppink;
+}
+tbody tr:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+a:link{
+    color:0000CD;
+    
+}
+a:visited{
+    color: black;
+    
+}
+a:active{
+    color: crimson;
+    background-color: blueviolet;
+    
+}
+a:hover{
+    text-decoration: none;
+    background-color: yellow;
+    
+}
